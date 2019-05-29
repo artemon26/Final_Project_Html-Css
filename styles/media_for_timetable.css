@@ -1,0 +1,56 @@
+@import "media_for_ass.css";
+
+@media all and (max-width: 854px) {
+    td, .table p {
+        font-size: 12px !important;
+    }
+}
+
+@media all and (max-width: 657px) {
+    thead th {
+        padding: 7px 0 7px 10px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media all and (max-width: 565px) {
+    td, .table p, th {
+        font-size: 10px !important;
+    }
+
+    thead th {
+        padding: 7px 0 7px 10px !important;
+        font-size: 8px !important;
+    }
+}
+
+@media all and (max-width: 480px) {
+    td, .table p, th {
+        font-size: 8px !important;
+    }
+
+    thead th {
+        padding: 5px 0 5px 8px !important;
+    }
+
+    td {
+        padding: 8px 5px !important;
+    }
+
+    td:first-child, td:last-child {
+        display: none;
+    }
+
+    td img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .cover {
+        margin-top: -16px !important;
+    }
+
+    .title {
+        margin-bottom: -30px;
+    }
+}

@@ -1,0 +1,23 @@
+@import "jquery.fancybox-1.3.4.css";
+.fancybox {
+    margin: 20px 0;
+    text-align: center;
+    padding: 0;
+}
+
+.fancybox a img {
+    border: 1px solid #BBB;
+    padding: 2px;
+    margin: 9px 1px;
+    width: 143px;
+    height: 143px;
+    vertical-align: -45px;
+    outline: none;
+}
+
+.fancybox a {
+    padding: 0;
+}
+.fancybox a[href*=html]{
+    float: right;
+}

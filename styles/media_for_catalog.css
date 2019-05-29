@@ -1,0 +1,118 @@
+@import "media_for_ass.css";
+
+@media all and (max-width: 750px) {
+    .content_center-side [src*=JPG],
+    .content_center-side [src*=jpg] {
+        width: 215px !important;
+    }
+
+    .content_center-side .info {
+        width: 215px !important;
+    }
+
+    .info-box {
+        padding-left: 230px !important;
+    }
+
+    .content_center-side .info {
+        bottom: 26px !important;
+        height: 15px !important;
+    }
+}
+
+@media all and (max-width: 657px) {
+    .content_center-side [src*=JPG],
+    .content_center-side [src*=jpg] {
+        width: 165px !important;
+    }
+
+    .content_center-side .info {
+        width: 165px !important;
+    }
+
+    .info-box {
+        padding-left: 180px !important;
+    }
+}
+
+@media all and (max-width: 565px) {
+    .info-box p:nth-child(1) {
+        font-size: 12px !important;
+    }
+
+    .catalog_one div:not(.info),
+    .catalog_two div:not(.info),
+    .catalog_three div:not(.info),
+    .catalog_four div:not(.info),
+    .catalog_five div:not(.info) {
+        height: 121px !important;
+    }
+
+    .content_center-side [src*=JPG], .content_center-side [src*=jpg] {
+        height: 125px !important;
+    }
+
+    .info-box p:nth-child(2) {
+        font-size: 10px !important;
+        line-height: 69px !important;
+    }
+
+    .content_center-side [src*=JPG], .content_center-side [src*=jpg] {
+        width: 130px !important;
+    }
+
+    .content_center-side .info {
+        width: 130px !important;
+        bottom: 22px !important;
+        height: 12px !important;
+    }
+
+    .info-box {
+        padding-left: 135px !important;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .info-box p:nth-child(1) {
+        font-size: 8px !important;
+    }
+
+    .info-box p:nth-child(2) {
+        font-size: 8px !important;
+        line-height: 50px !important;
+    }
+
+    .info-box p:nth-child(3) {
+        font-size: 13px !important;
+    }
+
+    .content_center-side [src*=JPG],
+    .content_center-side [src*=jpg] {
+        width: 95px !important;
+        height: 85px !important;
+    }
+
+    .content_center-side .info {
+        width: 95px !important;
+        bottom: 20px !important;
+        height: 10px !important;
+    }
+
+    .catalog_one div:not(.info),
+    .catalog_two div:not(.info),
+    .catalog_three div:not(.info),
+    .catalog_four div:not(.info),
+    .catalog_five div:not(.info) {
+        height: 85px !important;
+    }
+
+    .info-box {
+        padding-left: 100px !important;
+    }
+
+    .info-box button {
+        font-size: 7px !important;
+        padding: 5px !important;
+        top: -46px !important;
+    }
+}

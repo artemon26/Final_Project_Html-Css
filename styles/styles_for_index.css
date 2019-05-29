@@ -1,0 +1,43 @@
+@import "styles_for_ass.css";
+@import "styles_title.css";
+@import "styles_news.css";
+@import "cocoen.min.css";
+@import "media_for_index.css";
+
+.content_left-side {
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    max-width: 319px;
+}
+
+.content_left-side p:nth-child(3) {
+    text-transform: none;
+    line-height: 30px;
+}
+
+.content_left-side img:first-child {
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin-left: 10px;
+}
+
+.content_center-side {
+    width: 49%;
+    background-color: white;
+    position: relative;
+    max-width: 625px;
+}
+
+.content_left-side span:last-child {
+    color: #00e400;
+}
+
+.two, .three, .four, .five {
+    border-bottom: dashed grey 1px;
+}
+
+[src*="news-1"] {
+    z-index: 1;
+}

@@ -1,0 +1,327 @@
+@media all and (max-width: 854px) {
+    h1 {
+        font: 45px 'ZCOOL XiaoWei', serif;
+        color: white;
+    }
+
+    .title span {
+        font: bold 20px sans-serif;
+    }
+
+    a {
+        font: bold 10px sans-serif;
+    }
+
+    .info {
+        padding: 8px 0 2px;
+    }
+
+    .margin {
+        font: bold 13px sans-serif;
+    }
+
+    .container_header_left {
+        margin-bottom: 4px;
+    }
+
+    .login {
+        border-bottom: solid black 4px;
+    }
+
+    .login p {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    [type*=search] {
+        width: 120px;
+    }
+
+    [src*=Press] {
+        width: 120px;
+    }
+
+    .info {
+        padding: 10px 0 0;
+    }
+
+    .scrollup {
+        background: url('../images/icon_top750.png') no-repeat;
+        width: 30px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 657px) {
+    [type*=search] {
+        width: 60px;
+        font-size: 11px;
+        padding: 3px;
+    }
+
+    [src*=Press] {
+        width: 60px;
+    }
+
+    .none {
+        width: 14px;
+        padding: 0;
+    }
+
+    i {
+        font: 16px icomoon !important;
+    }
+
+    .login i {
+        top: -9px;
+    }
+
+    .login p {
+        font: bold 10px sans-serif;
+    }
+
+    .login {
+        height: 60px;
+    }
+
+    .title span {
+        font: bold 15px sans-serif;
+    }
+
+    .margin {
+        font: bold 11px sans-serif;
+        margin-right: -3px;
+    }
+
+    [placeholder*=Login],
+    [placeholder*=Password] {
+        font-size: 10px;
+    }
+
+    .none2 {
+        width: 12px;
+        top: 26px;
+        padding: 0;
+    }
+
+    h1 {
+        font: 35px 'ZCOOL XiaoWei', serif;
+    }
+
+    .content_left-side a, .content_right-side a {
+        font: bold 8px sans-serif;
+    }
+}
+
+@media all and (max-width: 565px) {
+    .title span {
+        font: bold 12px sans-serif;
+    }
+
+    h1 {
+        font: 25px 'ZCOOL XiaoWei', serif;
+    }
+
+    .margin {
+        font: bold 9px sans-serif;
+    }
+
+    [placeholder*=Login],
+    [placeholder*=Password] {
+        font-size: 8px;
+        width: 48%;
+    }
+
+    a {
+        font: bold 8px sans-serif;
+    }
+
+    .novelty_one {
+        padding: 4px;
+    }
+
+    [src*=Press] {
+        height: 12px;
+        width: 55px;
+    }
+
+    [type*=search] {
+        font-size: 9px;
+        width: 55px;
+    }
+
+    .container_header_left {
+        padding: 0 1px 2px 0;
+        margin-bottom: 2px;
+    }
+
+    .container_header_right {
+        position: relative;
+        top: 3px;
+    }
+
+    .info {
+        padding: 5px 0 0;
+        height: 13px;
+        bottom: 19px;
+    }
+
+    .content_right-side [src*=JPG],
+    .content_right-side [src*=jpg] {
+        height: 105px;
+    }
+
+    .novelty_two,
+    .novelty_three,
+    .novelty_four,
+    .novelty_five,
+    .novelty_six {
+        height: 121px;
+    }
+
+    .title {
+        border-left: solid orangered 3px;
+        padding: 6px 5px;
+    }
+
+    .news {
+        margin-top: 25px;
+    }
+
+    .container_header_left {
+        padding: 0 0 2px 0;
+    }
+
+    .login {
+        border-bottom: solid black 2px;
+    }
+
+    .login p {
+        font-size: 9px;
+    }
+
+    i {
+        font: 13px icomoon !important;
+    }
+
+    [placeholder*=Login],
+    [placeholder*=Password] {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container_header_left {
+        margin-bottom: 2px;
+    }
+
+    .container_header_left > div:not(.container_header_right) {
+        margin-top: -2px;
+    }
+
+    .title {
+        border-left: solid orangered 2px;
+        padding: 3px 5px;
+    }
+
+    .title span {
+        font: bold 10px sans-serif;
+    }
+
+    .news {
+        margin-top: 20px;
+    }
+
+    .margin {
+        font: bold 8px sans-serif;
+    }
+
+    a {
+        font: bold 6px sans-serif !important;
+        padding: 0 2px;
+    }
+
+    [type*=search] {
+        font-size: 8px;
+        width: 50px;
+    }
+
+    [src*=Press] {
+        height: 10px;
+        width: 50px;
+    }
+
+    i {
+        font: 12px icomoon !important;
+    }
+
+    .none {
+        width: 12px;
+        padding: 0;
+    }
+
+    .novelty_one {
+        padding: 2px;
+        margin-bottom: -7px;
+    }
+
+    .novelty_two,
+    .novelty_three,
+    .novelty_four,
+    .novelty_five,
+    .novelty_six {
+        height: 90px;
+    }
+
+    .content_right-side [src*=JPG],
+    .content_right-side [src*=jpg] {
+        height: 80px;
+    }
+
+    .scrollup {
+        width: 36px;
+    }
+
+    .info {
+        height: 11px;
+        bottom: 17px;
+    }
+
+    .login {
+        border-bottom: solid black 2px;
+        height: 50px;
+    }
+
+    [placeholder*=Login] {
+        margin-bottom: 0;
+    }
+
+    .login i {
+        top: -4px;
+    }
+
+    .login p {
+        font-size: 7px;
+    }
+
+    [placeholder*=Login],
+    [placeholder*=Password] {
+        font-size: 7px;
+    }
+
+    .icon-search:before {
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .login i {
+        top: -3px;
+    }
+
+    .login {
+        height: 45px;
+    }
+}

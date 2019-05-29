@@ -1,0 +1,72 @@
+@import "media_for_ass.css";
+
+@media all and (max-width: 657px) {
+    .contacts [src*="0187"] {
+        clip-path: circle(75px at 50% 50%) !important;
+        width: 150px;
+    }
+
+    .contacts p:first-of-type {
+        font: bold 30px sans-serif !important;
+    }
+
+    .contacts p:nth-of-type(2) {
+        font: 15px sans-serif !important;
+        margin: 0 auto 40px !important;
+    }
+
+    .contacts p:nth-of-type(3) {
+        font: 12px /22px sans-serif !important;
+    }
+
+    .contacts p:nth-of-type(4) {
+        font: bold 15px sans-serif !important;
+        margin: 65px auto 20px !important;
+    }
+
+    .contacts p:nth-of-type(5),
+    .contacts p:nth-of-type(6) {
+        font: 15px /25px sans-serif !important;
+    }
+
+    .contacts p {
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .contacts [src*="0187"] {
+        clip-path: circle(40px at 50% 50%) !important;
+        width: 80px;
+    }
+
+    .contacts p:first-of-type {
+        font: bold 19px sans-serif !important;
+    }
+
+    .contacts p:nth-of-type(2) {
+        font: 10px sans-serif !important;
+        margin: 0 auto 20px !important;
+    }
+
+    .contacts p:nth-of-type(3) {
+        font: 9px /17px sans-serif !important;
+    }
+
+    .contacts p:nth-of-type(4) {
+        font: bold 12px sans-serif !important;
+        margin: 35px auto 15px !important;
+    }
+
+    .contacts p:nth-of-type(5), .contacts p:nth-of-type(6) {
+        font: 10px /20px sans-serif !important;
+    }
+
+    .logo img {
+        width: 25px !important;
+    }
+
+    .logo {
+        margin: 15px 0 !important;
+    }
+}

@@ -1,0 +1,205 @@
+@import "media_for_ass.css";
+
+@media all and (max-width: 854px) {
+    .apartment img {
+        height: 440px;
+    }
+
+    .presence {
+        font: 13px /30px sans-serif !important;
+    }
+
+    .fancybox a img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .apartment p:nth-child(5) {
+        font: 12px /40px sans-serif !important;
+    }
+
+    .apartment p:nth-child(6) {
+        font: 12px /40px sans-serif !important;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .presence {
+        margin-left: 36% !important;
+    }
+
+    .apartment img {
+        height: 420px !important;
+    }
+
+    .apartment p:nth-child(5) {
+        padding: 8px !important;
+    }
+
+    .apartment p:nth-child(6) {
+        padding: 8px !important;
+    }
+}
+
+@media all and (max-width: 657px) {
+    .apartment img {
+        height: 350px !important;
+    }
+
+    .fancybox a img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .apartment p:first-of-type {
+        font-size: 14px;
+    }
+
+    .presence {
+        font: 11px /30px sans-serif !important;
+        margin-left: 34% !important;
+    }
+
+    .apartment p:nth-child(5), .apartment p:nth-child(6) {
+        font: 11px /28px sans-serif !important;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .presence {
+        clear: both;
+    }
+}
+
+@media all and (max-width: 565px) {
+    .apartment {
+        margin-top: 15px !important;
+    }
+
+    .apartment a:nth-child(1) {
+        padding: 7px !important;
+    }
+
+    .apartment a:nth-child(2) {
+        padding: 7px !important;
+    }
+
+    .apartment img {
+        height: 240px !important;
+    }
+
+    .apartment p:first-of-type {
+        font-size: 12px;
+    }
+
+    .apartment p:nth-child(5), .apartment p:nth-child(6), .presence {
+        font: 10px /22px sans-serif !important;
+    }
+
+    .apartment p:nth-child(8) {
+        font: bold 27px sans-serif !important;
+        margin: 30px 0 10px !important;
+    }
+
+    .ya-share2__container_size_s .ya-share2__icon {
+        height: 12px !important;
+        width: 12px !important;
+    }
+
+    .right-part {
+        font-size: 12px;
+    }
+
+    .social-panel {
+        padding: 4px 0 !important;
+        height: 12px !important;
+    }
+
+    .ya-share2__container_size_s .ya-share2__item {
+        margin: 0 !important;
+    }
+
+    .fancybox a img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icon-play3:before {
+        font-size: 6px !important;
+    }
+
+    .fancybox a img {
+        margin: 2px 1px;
+
+    }
+}
+
+@media all and (max-width: 480px) {
+    .apartment img {
+        height: 200px !important;
+    }
+
+    .apartment a:nth-child(1), .apartment a:nth-child(2) {
+        padding: 5px !important;
+    }
+
+    .apartment {
+        margin-top: 10px !important;
+    }
+
+    .apartment img {
+        margin-top: 15px !important;
+    }
+
+    .apartment p:first-of-type {
+        padding: 10px !important;
+    }
+
+    .apartment p:first-of-type {
+        font-size: 10px;
+    }
+
+    .apartment p:nth-child(5),
+    .apartment p:nth-child(6),
+    .presence {
+        font: 7px /15px sans-serif !important;
+    }
+
+    .presence {
+        clear: none;
+    }
+
+    .apartment p:nth-child(8) {
+        font: bold 20px sans-serif !important;
+        margin: 25px 0 6px !important;
+    }
+
+    .apartment p:nth-child(9) {
+        font: 8px sans-serif !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .apartment p:first-of-type {
+        font-size: 8px;
+    }
+
+    i {
+        font: 9px icomoon !important;
+    }
+
+    .none2 {
+        width: 9px;
+        top: 28px;
+    }
+
+    .apartment p:nth-child(5), .apartment p:nth-child(6) {
+        padding: 5px !important;
+    }
+
+    .fancybox a img {
+        width: 50px;
+        height: 50px;
+    }
+}

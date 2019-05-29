@@ -1,0 +1,134 @@
+@import "styles_for_ass.css";
+@import "styles_title.css";
+@import "styles_for_content-center.css";
+@import "media_for_catalog.css";
+
+.container_header_left div:nth-child(2) {
+    background-color: black;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.container_header_left div:nth-child(2) a {
+    color: white;
+}
+
+.content_center-side [src*=JPG],
+.content_center-side [src*=jpg] {
+    width: 250px;
+    height: 150px;
+}
+
+.content_center-side .info {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 18px;
+    width: 250px;
+    padding: 7px 0 2px;
+    position: relative;
+    bottom: 30px;
+}
+
+.catalog_one,
+.catalog_two,
+.catalog_three,
+.catalog_four,
+.catalog_five {
+    border-bottom: dashed #d2d2d3 1px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.catalog_one div:not(.info),
+.catalog_two div:not(.info),
+.catalog_three div:not(.info),
+.catalog_four div:not(.info),
+.catalog_five div:not(.info) {
+    height: 150px;
+    margin: 0 10px;
+}
+
+.image-box {
+    position: absolute;
+    top: 16px;
+}
+
+.catalog_one:hover,
+.catalog_two:hover,
+.catalog_three:hover,
+.catalog_four:hover,
+.catalog_five:hover {
+    box-shadow: 0 0 10px 5px lightgrey;
+    transform: scale(1.1);
+    background-color: white;
+    z-index: 2;
+}
+
+.info-box {
+    padding-left: 270px;
+    text-transform: none;
+}
+
+.info-box p:nth-child(1) {
+    font-size: 16px;
+    line-height: 16px;
+    color: #1f1f1f;
+    max-width: 215px;
+}
+
+.info-box p:nth-child(2) {
+    font-size: 13px;
+    color: #9d9da0;
+    line-height: 100px;
+}
+
+.info-box p:nth-child(3) {
+    font-size: 20px;
+}
+
+.info-box button {
+    display: none;
+}
+
+.catalog_one:hover .info-box button,
+.catalog_two:hover .info-box button,
+.catalog_three:hover .info-box button,
+.catalog_four:hover .info-box button,
+.catalog_five:hover .info-box button {
+    display: block;
+}
+
+.info-box button {
+    position: relative;
+    float: right;
+    top: -80px;
+    right: -75px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    animation: color 14s linear infinite, position 3s linear forwards;
+}
+
+@keyframes color {
+    0% {
+        background-color: #00d300;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes position {
+    100% {
+        right: 0;
+    }
+}

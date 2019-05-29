@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recall</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo/kv.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles_for_recall.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="container_header">
+        <a href="index.html" title="На Главную">
+            <h1>
+                Kvartirka<span>.BY</span>
+            </h1>
+        </a>
+        <div class="container_header_left">
+            <div>
+                <a href="index.html" title="На Главную">Главная</a>
+            </div>
+            <div>
+                <a href="catalog.html" title="Каталог">Каталог</a>
+            </div>
+            <div>
+                <a href="timetable.html" title="Расписание">Расписание</a>
+            </div>
+            <div>
+                <a href="recall.html" title="Написать отзыв">Отзыв</a>
+            </div>
+            <div>
+                <a href="contacts.html" title="О нас">О нас</a>
+            </div>
+            <div class="container_header_right">
+                <form method="get">
+                    <label>
+                        <input type=search placeholder="Search..." spellcheck="true">
+                        <img src="images/Press.png" alt="Здесь должно быть фото" title="Поиск">
+                        <input type='submit' class="none">
+                        <i class="icon-search"></i>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_center-side">
+        <div class="title">
+            <span>Отзыв</span>
+        </div>
+        <div class="recall">
+            <form method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <input type="email" name="mail" placeholder="Ваш E-mail">
+                </div>
+                <div class="row">
+                    <input type="text" name="name" placeholder="Ваше имя">
+                </div>
+                <div class="row">
+                    <label for="apartment">Квартира:</label>
+                    <div class="select-box">
+                        <select name='apartment' id="apartment">
+                            <option value=1>Однокомнатная квартира в г.Любань</option>
+                            <option value=2>Двухкомнатная квартира в г.Любань</option>
+                            <option value=3>Трёхкомнатная квартира в г.Минск</option>
+                            <option value=4>Двухкомнатная квартира в г.Минск</option>
+                            <option value=5>Однокомнатная квартира в г.Солигорск</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea name="text" rows="5" placeholder="Текст"></textarea>
+                </div>
+                <div class="panel-file">
+                    <a href="" title="Прикрепите файл" onclick="trigger()">Прикрепите файл</a>
+                    <input type="file" name="File">
+                    <label>Только изображения (.jpg, .png, .bmp)</label>
+                </div>
+                <input type="button" value="Отправить">
+            </form>
+        </div>
+    </div>
+
+    <div class="content_right-side">
+        <div class="login">
+            <form method="get">
+                <div>
+                    <p>Личный кабинет</p>
+                    <div>
+                        <input type=email placeholder="Login" required>
+                        <input type="password" placeholder="Password" maxlength="8" required>
+                        <input type="submit" class="none2">
+                        <i class="icon-enter" onclick="trigger()"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="novelty">
+            <div class="novelty_one">
+                <a href="catalog.html" title="Перейти к новинкам">
+                    <span>Новинки</span>
+                </a>
+            </div>
+            <div class="novelty_two">
+                <a href="apartment1.html" title="Квартира №1">
+                    <div>
+                        <img src="images/apartment1/20180103_152514.jpg" alt="Здесь должно быть фото"
+                             title="Квартира №1">
+                        <div class="info">
+                            <span>1-ая квартира</span>
+                            <span>30.11.2018</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="novelty_three">
+                <a href="apartment2.html" title="Квартира №2">
+                    <div>
+                        <img src="images/apartment2/IMG_1734.JPG" alt="Здесь должно быть фото" title="Квартира №2">
+                        <div class="info">
+                            <span>2-ая квартира</span>
+                            <span>01.01.2019</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="novelty_four">
+                <a href="apartment3.html" title="Квартира №3">
+                    <div>
+                        <img src="images/apartment3/Mk70BiZl_rw.jpg" alt="Здесь должно быть фото" title="Квартира №3">
+                        <div class="info">
+                            <span>3-ая квартира</span>
+                            <span>01.01.2019</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="novelty_five">
+                <a href="apartment4.html" title="Квартира №4">
+                    <div>
+                        <img src="images/apartment4/4.jpg" alt="Здесь должно быть фото" title="Квартира №4">
+                        <div class="info">
+                            <span>2-ая квартира</span>
+                            <span>01.01.2019</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="novelty_six">
+                <a href="apartment5.html" title="Квартира №5">
+                    <div>
+                        <img src="images/apartment5/20170717_112656.jpg" alt="Здесь должно быть фото"
+                             title="Квартира №5">
+                        <div class="info">
+                            <span>1-ая квартира</span>
+                            <span>01.01.2019</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#" class="scrollup" title="Вернуться наверх">Наверх</a>
+
+<!--Scroll and trigger-->
+<script src="js/common.js"></script>
+
+<!--Trigger-->
+<script>
+    function trigger() {
+        $('input[type="file"]').trigger('click');
+    }
+</script>
+</body>
+</html>

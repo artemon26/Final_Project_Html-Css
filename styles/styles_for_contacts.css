@@ -1,0 +1,64 @@
+@import "styles_for_ass.css";
+@import "styles_for_content-center.css";
+@import "media_for_contacts.css";
+
+.container_header_left div:nth-child(5) {
+    background-color: black;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.container_header_left div:nth-child(5) a {
+    color: white;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts p {
+    width: 400px;
+}
+
+.contacts p:first-of-type {
+    font: bold 40px sans-serif;
+    margin: 20px auto;
+}
+
+.contacts p:nth-of-type(2) {
+    font: 20px sans-serif;
+    margin: 0 auto 50px;
+}
+
+.contacts p:nth-of-type(3) {
+    font: 15px /25px sans-serif;
+    margin: 0 auto;
+}
+
+.contacts p:nth-of-type(4) {
+    font: bold 18px sans-serif;
+    margin: 100px auto 20px;
+}
+
+.contacts p:nth-of-type(5), .contacts p:nth-of-type(6) {
+    font: 18px /30px sans-serif;
+    margin: 0 auto;
+}
+
+.contacts [src*="0187"] {
+    clip-path: circle(100px at 50% 50%);
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 50px 0;
+}
+
+.logo img {
+    width: 40px;
+    transition: transform 0.5s;
+}
+
+.logo img:hover {
+    transform: scale(1.5);
+}

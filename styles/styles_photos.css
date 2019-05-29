@@ -1,0 +1,27 @@
+@import "styles_for_ass.css";
+@import "styles_title.css";
+@import "style_fancybox.css";
+@import "styles_for_content-center.css";
+@import "media_for_photos.css";
+
+.apartment {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apartment a:nth-child(1) {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+.apartment a:nth-child(2), .apartment a:nth-child(1):hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+

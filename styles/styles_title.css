@@ -1,0 +1,19 @@
+.title {
+    border-left: solid orangered 5px;
+    padding: 15px 5px;
+    margin-top: 15px;
+}
+
+.title span {
+    font: bold 25px sans-serif;
+}
+
+.title2 {
+    border-left: solid orangered 5px;
+    padding: 15px 5px;
+    margin-top: 55px;
+}
+
+.title2 span {
+    font: 20px sans-serif;
+}

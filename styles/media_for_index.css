@@ -1,0 +1,244 @@
+@import "media_for_ass.css";
+
+@media all and (max-width: 1241px) {
+    div.news2 > div, .news2 img {
+        width: 225px;
+    }
+}
+
+@media all and (max-width: 1125px) {
+    div.news2 > div {
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .news2 img {
+        width: 120px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 854px) {
+
+    .content_left-side p:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .content_left-side p:nth-child(3) {
+        font-size: 10px;
+        text-transform: none;
+        line-height: 25px;
+    }
+
+    .news_link {
+        margin: 0 5px 0 140px;
+    }
+
+    .news_link div {
+        border-top: double #bebebe 4px;
+        border-top-left-radius: 16px;
+        text-align: center;
+    }
+
+    .news img {
+        width: 130px;
+    }
+
+    .title2 span {
+        font: 16px sans-serif;
+    }
+
+    .news2 p:first-of-type {
+        margin: 0 0 7px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .news2 p:last-of-type {
+        color: #666666;
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .news_link span {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .news_link {
+        margin: 0 5px 0 110px;
+    }
+
+    .news_link span {
+        font-size: 8px;
+    }
+
+    .news img {
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 657px) {
+    div.news2 > div {
+        width: 101px;
+    }
+
+    .news2 img {
+        width: 100px;
+    }
+
+    .news img {
+        display: none;
+    }
+
+    .news_link {
+        margin: 0;
+    }
+
+    .title2 span {
+        font: 14px sans-serif;
+    }
+
+    .margin {
+        font: bold 11px sans-serif;
+        margin-right: -3px;
+    }
+
+    .content_left-side p:nth-child(2) {
+        font-size: 8px;
+    }
+
+    .content_left-side p:nth-child(3) {
+        font-size: 8px;
+    }
+
+    .content_left-side img:last-child {
+        width: 15px;
+    }
+
+    .content_left-side img:first-child {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+@media all and (max-width: 565px) {
+    .title span {
+        font: bold 12px sans-serif;
+    }
+
+    .title2 span {
+        font: 14px sans-serif;
+    }
+
+    .title2 {
+        border-left: solid orangered 3px;
+        padding: 6px 5px;
+    }
+
+    .content_left-side img:last-child {
+        width: 12px;
+    }
+
+    div.news2 > div {
+        width: 86px;
+        padding: 7px;
+    }
+
+    .news2 img {
+        width: 85px;
+        height: 75px;
+    }
+
+    .news2 p:first-of-type {
+        margin: 0 0 7px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .news2 p:last-of-type {
+        font-size: 8px;
+    }
+
+    .content_left-side p:nth-child(2) {
+        font-size: 7px;
+    }
+
+    .content_left-side p:nth-child(3) {
+        font-size: 6px;
+        line-height: 15px !important;
+    }
+
+    .content_left-side img:first-child {
+        float: none !important;
+        margin-left: 0 !important;
+        width: 70px !important;
+    }
+
+    .two, .three, .four, .five {
+        height: 105px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .title {
+        border-left: solid orangered 2px;
+        padding: 3px 5px;
+    }
+
+    .title span {
+        font: bold 10px sans-serif;
+    }
+
+    .title2 {
+        border-left: solid orangered 2px;
+        padding: 3px 5px;
+        margin-top: 25px;
+    }
+
+    .title2 span {
+        font: 10px sans-serif;
+    }
+
+    .news_link span {
+        font-size: 7px;
+    }
+
+    .news_link div {
+        padding: 0;
+    }
+
+    div.news2 > div {
+        width: 78px;
+        padding: 3px;
+    }
+
+    .margin {
+        font: bold 8px sans-serif;
+    }
+
+    .news2 img {
+        width: 75px;
+        height: 65px;
+    }
+
+    .news2 p:first-of-type {
+        margin: 0 0 5px;
+        font-size: 9px;
+        line-height: 10px;
+    }
+
+    .news2 p:last-of-type {
+        font-size: 7px;
+        line-height: 8px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    div.news2 > div {
+        width: 75px;
+        padding: 3px;
+    }
+}
